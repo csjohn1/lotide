@@ -19,15 +19,14 @@
 const eqArrays = function(array1, array2) {
 
   for (let i = 0; i < array1.length; i++) {
-      console.log(array1);
-      console.log(array2);
+      
 
 
       if (array1.length !== array2.length || array1[i] !== array2[i]) {
-        return false;
+        return console.log(false);
       }
     }    
-  return true;
+  return console.log(true);
 }
 
 
